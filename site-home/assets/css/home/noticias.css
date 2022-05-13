@@ -1,0 +1,123 @@
+#noticias {
+    background-color: #F6F6F6;
+    padding-top: 114px;
+}
+
+.noticias__principal>h1 {
+    color: #001834;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    margin: 0; 
+}
+
+.noticias__principal>p {
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 11px;
+}
+
+.noticias--flex {
+    column-gap: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 35px;
+    padding-bottom: 151px;
+}
+
+.noticias__slide {
+    background: #FFFFFF;
+    border-radius: 15px;
+    height: 362px;
+    width: 273px;
+}
+
+.noticias__slide>img {
+    border-radius: 15px 15px 0px 0px;
+    height: 181px;
+    width: 273px;
+}
+
+.noticias__slide>h2 {
+    color: #014898;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 20px 20px 0 20px;
+    text-transform: uppercase;
+}
+
+.noticias__slide>p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.7%;
+    margin: 0 20px;
+}
+
+.noticias__slide>a {
+    color: #FCC530;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px 20px 0 20px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    #noticias {
+        padding-top: 0;
+    }
+
+    .noticias__principal>p {
+        visibility: hidden;
+    }
+
+    .noticias__principal>h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .noticias--flex {
+        margin-top: -26px;
+    }
+
+    .noticias__slide.hide {
+        visibility: hidden;
+    }
+
+    .noticias__slide {
+        height: 312px;
+        width: 379px;
+        
+    }
+
+    .noticias__slide>img {
+        height: 181px;
+        object-fit: cover;
+        width: 379px;
+    }
+
+    .noticias__slide>h2 {
+        color: #00244D;
+        text-transform: inherit;
+    }
+
+    .noticias__slide>a {
+        color: #00489A;
+        margin-top: 20px;
+        text-transform: inherit;
+    }
+
+    .noticias__slide>p {
+        margin-bottom: 20px;
+    }
+
+
+}

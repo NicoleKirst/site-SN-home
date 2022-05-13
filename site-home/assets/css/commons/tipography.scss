@@ -1,0 +1,117 @@
+@mixin botao2 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  
+  @mixin subtitulo1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  @mixin subtitulo2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  @mixin title-1 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  
+  .title-1{
+    @include title-1;
+  }
+  
+  @mixin title-2 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  
+  .title-2{
+    @include title-2;
+  }
+  
+  @mixin title-3 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .title-3{
+    @include title-3;
+  }
+  
+  @mixin text-body-2{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  @mixin text-body-1{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .text-body-2{
+    @include text-body-2;
+  }
+  
+  .text-body-1{
+    @include text-body-1;
+  }
+  
+  .text-sub-2{
+    @include subtitulo2;
+  }
+  
+  .beneficios__title{
+    color: var(--main-color);
+    font-weight: 600;
+  }
+  
+  .text-main-color{
+    color: var(--main-color);
+  }
+  
+  .carrosel-card__link{
+    @include botao2;
+  }
+  
+  .veja-mais__p{
+    @include subtitulo2;
+    color: var(--black);
+  }
+  
+  .text-dark-blue{
+    color: var(--dark-blue);
+  }
+  
+  
+  .text-white{
+    color: white;
+  } 
+  
+  .text-center{
+    text-align: center;
+  }
